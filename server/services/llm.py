@@ -18,13 +18,13 @@ default_parameters = {
 class WatsonXLLM:
     def __init__(self, parameters = default_parameters):
         self.parameters = parameters
-        
+
     def get_llm(self) -> None:
         watsonx_llm = WatsonxLLM(
-        model_id="ibm/granite-13b-chat-v2",
-        url="https://us-south.ml.cloud.ibm.com",
-        project_id="7df2cac2-9b44-4515-bbf5-86233a391a7c",
-        params=self.parameters,
+            model_id="ibm/granite-13b-chat-v2",
+            url="https://us-south.ml.cloud.ibm.com",
+            project_id=os.getenv("WATSONX_AI_PROJECT_ID"),
+            params=self.parameters,
         )
         return watsonx_llm
 
