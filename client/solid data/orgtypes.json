@@ -1,0 +1,103 @@
+[
+    {
+      "id": 1,
+      "industry": "Software",
+      "description": "Companies involved in the development, distribution, and support of software products and services."
+    },
+    {
+      "id": 2,
+      "industry": "Consulting",
+      "description": "Organizations providing professional advice and expertise in various fields such as management, IT, and finance."
+    },
+    {
+      "id": 3,
+      "industry": "Finance",
+      "description": "Companies offering banking, investment, and insurance services to individuals and businesses."
+    },
+    {
+      "id": 4,
+      "industry": "Healthcare",
+      "description": "Organizations delivering medical services, manufacturing medical equipment, or providing pharmaceuticals."
+    },
+    {
+      "id": 5,
+      "industry": "Education",
+      "description": "Institutions focused on delivering educational programs, training, and academic research."
+    },
+    {
+      "id": 6,
+      "industry": "Manufacturing",
+      "description": "Companies involved in the production and distribution of goods, machinery, and equipment."
+    },
+    {
+      "id": 7,
+      "industry": "Retail",
+      "description": "Organizations selling goods and services directly to consumers, both online and in-store."
+    },
+    {
+      "id": 8,
+      "industry": "Telecommunications",
+      "description": "Companies that provide communication services such as internet, phone, and cable services."
+    },
+    {
+      "id": 9,
+      "industry": "Energy",
+      "description": "Organizations involved in the production and distribution of energy, including renewable and non-renewable sources."
+    },
+    {
+      "id": 10,
+      "industry": "Real Estate",
+      "description": "Companies that deal with the buying, selling, renting, and managing of properties."
+    },
+    {
+      "id": 11,
+      "industry": "Logistics",
+      "description": "Organizations that provide transportation, warehousing, and supply chain services."
+    },
+    {
+      "id": 12,
+      "industry": "Agriculture",
+      "description": "Companies involved in farming, production of food products, and agribusiness."
+    },
+    {
+      "id": 13,
+      "industry": "Automotive",
+      "description": "Organizations that design, manufacture, and sell vehicles and automotive components."
+    },
+    {
+      "id": 14,
+      "industry": "Hospitality",
+      "description": "Businesses providing services in tourism, hotels, restaurants, and entertainment."
+    },
+    {
+      "id": 15,
+      "industry": "Aerospace & Defense",
+      "description": "Companies involved in the design, manufacturing, and support of aircraft, defense systems, and space exploration."
+    },
+    {
+      "id": 16,
+      "industry": "Media & Entertainment",
+      "description": "Organizations focused on content creation, publishing, broadcasting, and entertainment services."
+    },
+    {
+      "id": 17,
+      "industry": "Construction",
+      "description": "Companies involved in building, infrastructure development, and civil engineering projects."
+    },
+    {
+      "id": 18,
+      "industry": "Pharmaceuticals",
+      "description": "Organizations engaged in the research, production, and distribution of drugs and medical treatments."
+    },
+    {
+      "id": 19,
+      "industry": "Non-Profit",
+      "description": "Organizations that operate for social, educational, or charitable causes rather than profit."
+    },
+    {
+      "id": 20,
+      "industry": "E-commerce",
+      "description": "Businesses involved in buying and selling goods and services over the internet."
+    }
+  ]
+  

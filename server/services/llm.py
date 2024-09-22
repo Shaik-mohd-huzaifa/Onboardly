@@ -4,7 +4,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-os.environ["WATSONX_APIKEY"] = os.getenv("IBM_WATSONX_AUTH_TOKEN")
+os.environ["WATSONX_APIKEY"] = os.getenv("IBM_WATSONX_API_KEY")
 
 default_parameters = {
     "decoding_method": "sample",
@@ -28,4 +28,7 @@ class WatsonXLLM:
         )
         return watsonx_llm
 
-# print(watsonx_llm.invoke("Who is the father of american nation"))
+
+# instance = WatsonXLLM()
+# llm = instance.get_llm()
+# print(llm.invoke("Who is the father of american nation"))

@@ -1,0 +1,18 @@
+[
+  {
+    "path": "/Orgdashboard",
+    "title": "Organisation"
+  },
+  {
+    "path": "employees",
+    "title": "Employee"
+  },
+  {
+    "path": "documents",
+    "title": "documents"
+  },
+  {
+    "path": "rules",
+    "title": "instructions"
+  }
+]
