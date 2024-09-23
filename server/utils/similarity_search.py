@@ -4,12 +4,16 @@ from langchain_openai import AzureOpenAIEmbeddings
 from langchain.chains import RetrievalQA
 from langchain_core.prompts import PromptTemplate
 from services.llm import WatsonXLLM
+from dotenv import load_dotenv
+
+
+load_dotenv()
 
 embeddings = AzureOpenAIEmbeddings(
     model="text-embedding-3-small",
     # dimensions: Optional[int] = None, # Can specify dimensions with new text-embedding-3 models
-    azure_endpoint="https://wasp-ai-openai.openai.azure.com/",
-    api_key="2704e1c05ed94dfea045cb86d1d8c86c",
+    azure_endpoint=os.getenv("AZURE_OPENAI_ENDPOINT"),
+    api_key=os.getenv("AZURE_OPENAI_API_KEY"),
     openai_api_version="2023-03-15-preview",
 )
 

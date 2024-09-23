@@ -64,7 +64,7 @@ def call_llm(query, context, Organsation, Org_type, Org_description):
             "repetition_penalty": 1.05,
         },
         "model_id": "ibm/granite-13b-chat-v2",
-        "project_id": "7df2cac2-9b44-4515-bbf5-86233a391a7c",
+        "project_id": os.getenv("WATSONX_AI_PROJECT_ID"),
     }
 
     headers = {
